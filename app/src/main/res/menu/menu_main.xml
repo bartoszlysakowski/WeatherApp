@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_refresh"
+        android:title="Refresh"
+        android:icon="@drawable/baseline_refresh_24"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_location"
+        android:title="Change Location"
+        android:icon="@drawable/baseline_add_location_24"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_units"
+        android:title="Change Units"
+        android:icon="@drawable/baseline_ac_unit_24"
+        app:showAsAction="ifRoom"/>
+</menu>
